@@ -1,31 +1,35 @@
 .topInfo {
-    background-color: rgba(255, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.35);
     text-decoration: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    vertical-align:middle;
     line-height: 30px;
-    
 }
-    .topInfo-text {
+    .topInfo-text a{
         text-align: left;
-        color: #ffffff;     
+        color: #ffffff;
+        margin-left: 5px;
     }
-    i{
+    .topInfo-text i{
         float: right;
         color: #ffffff;
+        line-height:30px;
+        margin-right:4px;
+        font-size:22px;
+        vertical-align:middle;
     }
 .main {
     margin: 0px;
     clear: both;
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-color: red;
     top: 0px;
     left: 0px;
-    
+    text-align: center;
+    color: #fff;
 }
     .logoborder {
         height: 100px;
@@ -33,8 +37,57 @@
         background-color: aqua;
         border-radius: 60px;
         box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.5);
-        margin: 50px 50% 10px 50%;
-        border:5px solid #ffffff;
+        border:5px solid #ffffff; 
+        margin: 0 auto;
+/*        margin-top: 100px;*/
+}
+    #title {
+        font-size: 24px;
+        padding: 10px;
+    }
+    #tel,#add {
+        font-size: 16px;
+        padding: 1px;
+    }
+.show {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
     
+}
+    #kk {
+        border-bottom: 5px solid black；
+        
+    }
+
+.activities {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(216, 13, 13, 0.5);
+    
+}
+    img .pic1 {
+        z-index: 1;
+        margin: 0 auto;
+    }
+    img .pic2 {
+        z-index: 2;
+    }
+    img #circle {
+        z-index: 3;
+    }
+    #circle {
+        background-color: brown;
+        height: 30px;
+        width: 30px;
+        border-radius: 16px;
+        color: #ffffff;
+        font-size: 0.5px
+    }
+
+.list {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(222, 248, 23, 0.79);
     
 }
