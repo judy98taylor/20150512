@@ -6,7 +6,7 @@
 
 /* 全局重置 */
 * { margin:0; padding:0; }
-body { color: #333; font-family:'Arial','Microsoft YaHei'; min-width:320px; }
+body { color: #333; font-family:'Arial','Microsoft YaHei'; }
 ul, ol, li { list-style:none; }
 table { border-collapse:collapse; border-spacing:0; table-layout:fixed; width:100%; }
 a { color:#666; }
