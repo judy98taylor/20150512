@@ -25,6 +25,15 @@
 <!--引用jQuery文件-->
 <script type="text/javascript" src="js/common.js"></script>
 <!--引用通用js文件-->
+    <style>
+        .showtop {}
+        .avatar {  width: 80px; height: 80px; border-radius: 50%; padding: 2px; box-shadow: 0 2px 2px #000; position: relative; float: left; display: block;}
+        .avatar img { width: 100%; height: 100%; border-radius: 50%; }
+        .showtext { position: relative; margin-left: 104px;}
+        .showtext h3 { display: table-cell; vertical-align: middle; height: 100px;}
+        .showtext em { position: absolute; top: 40px; right: 1px; color:gray; }
+    </style>
+
 </head>
 <body>
     <div class="header">
@@ -33,7 +42,7 @@
                 <p>你永远不知道谁是你的下一赞</p>
             </div>
             <div class="close">
-                <i class="fa fa-times-circle"></i>
+                <a href="javasctipt:;"><i class="fa fa-times-circle"></i></a>
             </div>
         </div>
         <div class="logo">
@@ -42,62 +51,100 @@
         <div class="logoText">
             <div class="name"><h3>外婆家（大悦城店）</h3></div>
             <div class="add"><p>地址：河西区浦口道22号汇通大厦</p></div>
-            <div class="tel"><p></p></div>
+            <div class="tel"><p>电话：022-12345678</p></div>
         </div>
     </div>
     <div class="main">
+        <div class="sublight"></div>
         <div class="show">
-            <div class="sublight"></div>
-            <div class="showtop">
-                <div class="avatar">
-                    <img src="images/avatar.jpg">
+            <div class="showmain">
+                <div class="showtop">
+                    <a class="avatar">
+                        <img src="images/avatar.jpg">
+                    </a>
+                    <div class="showtext">
+                        <h3>"_夏天</h3>
+                        <em>快帮我点个赞！</em>
+                    </div>
                 </div>
-                <div class="showtext">
-                    <div class="nickname"><p>"_夏天</p></div>
-                    <div class="tip"><p>快点帮我点赞</p></div>
+
+                <div class="showpic">
+                    <a href="javascript:;"><img class="a" src="images/avatar.jpg"></a>
+                    <a href="javascript:;"><img class="b" src="images/avatar.jpg"></a>
+                    <a href="javascript:;"><img class="c" src="images/avatar.jpg"></a>
+                    <a href="javascript:;"><img class="d" src="images/avatar.jpg"></a>
                 </div>
             </div>
-            <div class="sublight"></div>
-            <div class="showpic"></div>
         </div>
+        <div class="suplight"></div>
         <div class="activity">
             <div class="title">
                 <img src="images/activities-tit.fw.png">
             </div>
+            <div class="picWrapper">
             <div class="pic">
-                <img src="images/activities-pic.fw.png">
-                <img src="images/activities-no.fw.png">
+                <img class="brown" src="images/activities-pic.fw.png">
+                <img class="yellow" src="images/activities-no.fw.png">
                 <p><em>89</em>赞</p>
-                <h4>我要参加</h4>
+                <div><a href="javasctipt:;">我要参加<!--<h4>我要<br>参加</h4>--></a></div>
+            </div>
             </div>
             <div class="info">
                 <p>只要你帮<span>"_夏天</span>点个赞，Ta就能得到梦寐以求的</p>
                 <p><span>"红烧排骨</span>*<span>1份</span>，快点伸出援手吧！</p>
             </div>
             <div class="btn">
-                <a href="#" class="gray">已结束</a>
-                <a href="#" class="yellow">猛戳这里</a>
+                <div class="k1"><a href="javasctipt:;" class="gray">已结束</a>
+                </div>
+                <div class="k2"><a href="javasctipt:;" class="here">猛戳这里</a>
+                </div> 
             </div>
             <div class="tips">
-                <p><a href="#">查看活动细则</a>          <a href="#">我也要参加</a></p>
+                <span><a href="javasctipt:;">查看活动细则</a></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span><a href="javasctipt:;">我也要参加</a></span>
             </div>
         </div>
+        <div class="subdark"></div>
         <div class="list">
-            <div class="subdark"></div>
             <div class="listTitle">
                 <img src="images/list-tit.fw.png">
             </div>
             <div class="listText">
                 <ul>
-                    <li><p><span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你！</p></li>
-                    <li><p><span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你！</p></li>
-                    <li><p><span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你！</p></li>
-                    <li><p><span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你！</p></li>
-                    <li><p><span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你！</p></li>
+                    <li>
+                        <a href="javasctipt:;"><img src="images/avatar.jpg"></a>
+                        <div>
+                            <span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你!                                   
+                        </div>                        
+                    </li>
+                    <li>
+                        <a href="javasctipt:;"><img src="images/avatar.jpg"></a>
+                        <div class="litext">
+                            <p><span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你!</p>                             
+                        </div>                        
+                    </li><li>
+                        <a href="javasctipt:;"><img src="images/avatar.jpg"></a>
+                        <div class="litext">
+                            <p><span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你!</p>                             
+                    </div>                        
+                    </li>
+                    <li>
+                        <a href="javasctipt:;"><img src="images/avatar.jpg"></a>
+                        <div class="litext">
+                            <p><span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你!</p>                             
+                        </div>                        
+                    </li>
+                    <li>
+                        <a href="javasctipt:;"><img src="images/avatar.jpg"></a>
+                        <div class="litext">
+                            <p><span>义薄云天</span>，狠狠戳了一个<span>赞</span>给你!</p>                             
+                        </div>                        
+                    </li>
                 </ul>
             </div>
-            <div class="supdark"></div>
         </div>
+        <div class="supdark"></div>
     </div>
 </body>
 </html>
