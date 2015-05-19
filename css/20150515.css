@@ -9,7 +9,7 @@ body{ background-color: #F15353;}
 .show { }
     .sublight { height: 10px; background: url(../images/sawtooth.fw.png) repeat-x; background-size:20px 20px; }
 .show {}
-    .showmain { background-color: #fff;padding: 20px;}
+    .showmain { background-color: #fff;padding: 10px;}
     /*.showtop { border-bottom: 1px solid; position: relative; 
         
         
@@ -23,10 +23,22 @@ body{ background-color: #F15353;}
         .showtext { position: absolute; left: 88px; height: 100px; line-height: 100px;}
             .nickname { font-weight: bold;}
             .tip { display: inline-block; position: absolute; top: 40px; right: 10px; color: gray; line-height: 100px;}*/
-    .showpic {display: inline-block; padding: 10px; text-align: center; margin: 0 auto;}
+    /*.showpic {display: inline-block; padding: 10px; text-align: center; margin: 0 auto; width: 310px;}
         .a,.b,.c,.d { margin: 2px; display:inline-block;}
-        .a {}
-        .showpic img { width: 70px; height: 70px; border-radius: 10px; }
+        .a { display: inline-block;}
+        .showpic img { width: 70px; height: 70px; border-radius: 10px; }*/
+.showpic { }
+    .showpic ul { text-align: center; list-style: none;}
+        .showpic li { list-style: none; display: inline-block;}
+            .a,.b,.c,.d { margin: 2px; display:inline-block;}
+            .a { display: inline-block;}
+            .showpic img {   padding: 0;
+  width: 67px;
+  height: 67px;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: inline-block; }
+   
 
     .suplight { height: 10px; background: url(../images/sawtooth.fw.png) repeat-x center -10px; background-size:20px 20px;}
 .activity {}
@@ -67,13 +79,15 @@ body{ background-color: #F15353;}
 .info { text-align: center;margin: 20px auto;}
     .info span { color: yellow;}
 .btn { text-align: center;}
-    .k1 {}
-    .gray { color: gray; background-color: aliceblue; border-radius: 10px; font-size: 40px; padding: 10px 20px; margin: 20px auto; font-weight: bold; 
+.k1,.k2 { background: rgba(0, 0, 0, 0.25); padding: 5px; margin: 2px auto; display: inline-block; border-radius: 15px;}
+    .gray { color: gray; background-color: aliceblue; border-radius: 10px; font-size: 40px; padding: 10px 20px; margin: 0px auto; font-weight: bold; 
        
     display: block; width: 200px; box-shadow: 0 -4px 2px gray inset; }
-    .here { color: brown; background-color: yellow; border-radius: 10px; font-size: 40px; padding: 10px 20px; margin: 20px auto; font-weight: bold;
+    .here { color: brown; background-color: yellow; border-radius: 10px; font-size: 40px; padding: 10px 20px; margin: 0px auto; font-weight: bold;
         
-    display: block; width: 200px; box-shadow: 0 -4px 2px gray inset; }
+    display: block; width: 200px; box-shadow: 0 -4px 2px gray inset; 
+      
+    }
 .tips { text-align: center; margin: 30px auto;}
     .tip a { color: #fff;}
 
@@ -83,8 +97,8 @@ body{ background-color: #F15353;}
     .listText { padding: 10px 30px; margin: 0 auto;}
         .listText ul {}
         .listText li { list-style-type: none; border-bottom: 1px dashed gray; padding: 5px 5px 4px 5px; text-align: center;vertical-align: middle; position: relative; height: 56px;}
-        .listText a { width: 50px; height: 50px; border: 2px solid #fff; border-radius: 10px; position: absolute; left: 5px;top: 5px;}
-            .listText img { width: 100%; height: 100%; border-radius: 10px;}
+        .listText a { width: 50px; height: 50px;  border-radius: 10px; position: absolute; left: 5px;top: 5px;}
+            .listText img { width: 100%; height: 100%; border-radius: 10px; border: 2px solid #fff;}
         .listText div { position: absolute; left: 70px;top: 24px; display: inline-block; text-align: center;}
             .listText span { color: yellow;}
     
